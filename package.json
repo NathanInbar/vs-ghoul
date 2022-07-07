@@ -1,0 +1,21 @@
+{
+    "name": "vs-ghoul",
+    "displayName": "VS Ghoul",
+    "description": "A Tokyo Ghoul inspired color theme for VS Code. Aesthetic > Readability",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ghoul",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ghoul-color-theme.json"
+            }
+        ]
+    }
+}
