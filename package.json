@@ -1,21 +1,30 @@
 {
-    "name": "vs-ghoul",
-    "displayName": "VS Ghoul",
-    "description": "A Tokyo Ghoul inspired color theme for VS Code. Aesthetic > Readability",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.69.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ghoul",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Ghoul-color-theme.json"
-            }
-        ]
-    }
+	"publisher": "NathanInbar",
+	"repository": "https://github.com/NathanInbar/vs-ghoul",
+	"name": "vs-ghoul",
+	"displayName": "VS Ghoul",
+	"description": "A Tokyo Ghoul inspired color theme for VS Code. Aesthetic > Readability.",
+	"icon": "icon.png",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.69.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ghoul",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ghoul-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "98977d04-82c0-45c4-b180-ebe95b6ba6f9",
+		"publisherDisplayName": "Nathan Inbar",
+		"publisherId": "4cd57174-0909-4765-b45c-8be4d6696c31",
+		"isPreReleaseVersion": false
+	}
 }
